@@ -34,7 +34,7 @@ The component also includes a slide-in animation that plays when the page loads.
 
 ### 🔗 Links
 
-- 💡 Solution URL: [Frontend Mentor Submission](https://www.frontendmentor.io/solutions/qr-component-with-css-and-tailwindcss-mVjK2QSjkn)
+- 💡 Solution URL: [Frontend Mentor Submission](https://www.frontendmentor.io/solutions/qr-component-with-css-and-tailwindcss-rBpoFdC9wz)
 - 🌐 Live Site URL: [Live Demo](https://thewizard04-qr-component.netlify.app)
 
 ---
