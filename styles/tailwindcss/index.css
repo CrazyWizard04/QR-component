@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+
+  --font-outfit: "Outfit", sans-serif;
+  --text-paragraph: 15px;
+  --animate-slide-in: slide-in 0.5s ease-out;
+}
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-border scroll-smooth font-outfit;
+  }
+
+  body {
+    @apply min-h-screen flex items-center justify-center bg-slate-300;
+  }
+
+  article {
+    @apply bg-white max-w-[350px] p-4 rounded-2xl text-center flex flex-col gap-4 animate-slide-in;
+  }
+
+  article img {
+    @apply w-full rounded-2xl;
+  }
+
+  article h1 {
+    @apply text-slate-900 text-2xl font-bold leading-6.5 px-4;
+  }
+
+  article p {
+    @apply text-slate-500 text-paragraph leading-5 px-5 mb-5;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    translate: 0 50px;
+  }
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
